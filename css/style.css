@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    color: #333333;
+    background-color: #ffffff;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+    display: block;
+}
+
+.wrap {
+    width: 1200px;
+    height: 700px;
+    position: relative;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    z-index: 1000;
+}
+
+.logo {
+    background: red;
+    width: 200px;
+    height: 40px;
+}
+
+.logo img {
+    width: 200px;
+    height: 40px;
+    float: left
+}
+
+.menu_bg {
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    background-color: aqua;
+    top: 80px;
+    display: none;
+}
+
+.menu {
+    left: 550px;
+    top: 30px;
+    position: absolute;
+
+}
+
+.main {
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.main li {
+    float: left;
+    width: 150px;
+    background-color: #ffffff;
+}
+
+.main li a {
+    color: #333333
+}
+
+.main li:hover {
+    background-color: rgba(0, 0, 255, 0.137);
+}
+
+.sub li {
+    display: none;
+    background-color: aqua;
+}
+
+.sub li a {
+    color: #333333;
+}
+
+.slide {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.slide a {
+    position: absolute;
+}
+
+.slideText {
+    position: absolute;
+    padding: 14px 40px;
+    color: #ffffff;
+    background: rgba(178, 34, 34, 0.226);
+    left: 0;
+    top: 0;
+}
+
+.contents {
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+.notice,
+.gallery,
+.baro {
+    float: left;
+    width: 400px;
+    height: 200px;
+
+}
+
+.notice a,
+.gallery a,
+.baro a {
+    color: #333333;
+}
+
+.notice ul :hover {
+    background: rgba(102, 51, 153, 0.26);
+
+}
+
+.notice li {
+    line-height: 30px;
+}
+
+.gallery img {
+    float: left;
+}
+
+.baro img {
+    width: 400px;
+    height: 200px;
+}
+
+.baro h3 {
+    position: absolute;
+    padding: 14px 40px;
+    background-color: rgba(127, 255, 212, 0.267);
+}
+
+.left1 {
+    width: 1000px;
+    height: 50px;
+    float: left;
+
+}
+
+.left2 {
+    width: 1000px;
+    height: 50px;
+    float: left;
+}
+
+.right1 {
+    height: 100px;
+    float: left;
+    width: 200px;
+}
+
+.left1 a {
+    color: #333333;
+    margin: 50px;
+    line-height: 50%;
+}
+/* 파업 */
+.popUpBox {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    display: none;
+}
+
+.popUp {
+    position: absolute;
+    width: 1000px;
+    height: 300px;
+    left: 10%;
+    top: -30%;
+    text-align: center;
+    line-height: 5;
+    border: 1px solid #000;
+    background: #fff;
+
+}
+
+
+
+
